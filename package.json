@@ -14,8 +14,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "main": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [
     "Assignment3"
