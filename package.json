@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "ejs": "*",
+    "body-parser": "*",
+    "express-validator": "6.12.1",
+    "express-fileupload": "*",
+    "mongoose": "*",
+    "express-session": "*"
+  },
+  "name": "assignment_3",
+  "version": "1.0.0",
+  "description": "Adithiyan Asokan Assignment 3",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Assignment3"
+  ],
+  "author": "Adithiyan Asokan",
+  "license": "ISC"
+}

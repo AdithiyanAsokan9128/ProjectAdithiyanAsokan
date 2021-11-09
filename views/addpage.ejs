@@ -1,0 +1,63 @@
+<%
+  var title = '';
+  var image = '';
+  var content = '';
+
+  var titleError = '';
+  var imageError = '';
+  var contentError = '';
+
+  if(typeof(er) != 'undefined')
+  {
+    for(var error of er)
+    { 
+      switch(error.param){
+        case 'title':         title = error.value;
+                              titleError = error.msg;
+                                  break;
+        case 'image':        image = error.value;
+                            imageError = error.msg;
+                                  break;
+        case 'content':  content = error.value;
+                         contentError = error.msg;
+                                  break;
+      }
+    }
+  }
+%>
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+
+    <body>
+      <form method="post" action="process" enctype="multipart/form-data">
+<div class ="form">
+  <div class="form-group">
+
+        <label>Page Title</label>
+
+        <input id="title" type="text" name="title"><br/>
+
+        </div>
+
+        <div>
+
+        <label for="image">Page Image</label>
+
+        <input id="image" type="file" name="image"><br/>
+
+        </div>
+
+        <div>
+
+        <labelz>Page Content</label>
+
+        <input id="content" type="textbox" name="content"><br/>
+
+        </div>
+
+        <input type="submit" value="Submit">
+
+</div>
+      </form>
+      
+    <%- include('layouts/footer'); -%>
