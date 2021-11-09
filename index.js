@@ -249,6 +249,6 @@ myAssign.get('/delete/:pageid', function(req, res){
     }
 });
 
-myAssign.listen(8080);
+myAssign.listen(process.env.PORT || 8080);
 
 console.log('execution done');

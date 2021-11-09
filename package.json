@@ -14,11 +14,20 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "main": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Assignment3"
   ],
   "author": "Adithiyan Asokan",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdithiyanAsokan9128/ProjectAdithiyanAsokan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdithiyanAsokan9128/ProjectAdithiyanAsokan/issues"
+  },
+  "homepage": "https://github.com/AdithiyanAsokan9128/ProjectAdithiyanAsokan#readme"
 }
